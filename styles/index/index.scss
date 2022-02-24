@@ -1,0 +1,16 @@
+@import 'index-menu';
+@import 'title-quote';
+@import 'index-frame';
+@import 'index-group';
+@import 'index-awards';
+body {
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+    font-family: 'Mulish';
+    color: #111111;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,48 @@
+.title-quote {
+    max-width: 1110px;
+    margin-top: 20px;
+    height: 40%;
+    width: 90%;
+    border: solid green 5px;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title {
+    max-width: 635px;
+    width: 100%;
+}
+
+.title__heading {
+    font-size: 22px;
+    color: #4A4FF2;
+    font-weight: bold;
+}
+
+.title__paragraph {
+    font-size: 40px;
+}
+
+.title__paragraph-span {
+    color: #4A4FF2;
+}
+
+.quote {
+    align-self: flex-end;
+}
+
+.quote__rectangle {
+    width: 30px;
+    height: 2px;
+    background-color: #111111;
+}
+
+.quote__paragraph {
+    margin-top: 5px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+}
