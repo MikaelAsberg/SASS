@@ -2,10 +2,20 @@
     margin-top: 20px;
     max-width: 1110px;
     width: 100%;
-    height: 823px;
+    // max-height: 823px;
     border: solid black 5px;
     box-sizing: border-box;
     background-color: white;
+    display: grid;
+    grid-template-columns: repeat (7, 1fr);
+    grid-template-rows: repeat (10, 1fr);
+    // grid-gap: 24px;
+    box-sizing: border-box;
+}
+
+.awards__text {
+    position: relative;
+    top: 30px;
 }
 
 .divider {
@@ -14,15 +24,102 @@
     height: 2px;
     background-color: #D8D8D8;
     stroke: #979797;
+    // går inte att sätta line-height utan att sabba gridden //
 }
 
-.awards__first-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.line-one {
+    grid-area: 1/1/9/10;
+    font-size: 22px;
 }
 
-.genesis-ui-kit {
-    max-width: 190px;
-    width: 100%;
+.awards__item-1 {
+    grid-area: 2/1/2/2;
+    font-size: 22px;
+}
+
+.awards__item-2 {
+    grid-area: 2/5/2/6;
+    font-size: 18px;
+}
+
+.awards__item-3 {
+    grid-area: 2/7/2/8;
+    max-width: 170px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.awards__item-4 {
+    grid-area: 2/9/2/10;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.awards__item-5 {
+    grid-area: 3/5/4/6;
+    font-size: 18px;
+}
+
+.awards__item-6 {
+    grid-area: 3/7/4/8;
+    max-width: 170px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.awards__item-7 {
+    grid-area: 3/9/4/10;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.line-two {
+    grid-area: 4/1/9/10;
+    font-size: 16px;
+}
+
+.awards__item-8 {
+    grid-area: 5/1/5/3;
+    font-size: 22px;
+}
+
+.awards__item-9 {
+    grid-area: 5/5/5/6;
+    font-size: 18px;
+}
+
+.awards__item-10 {
+    grid-area: 5/7/5/8;
+    max-width: 170px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.awards__item-11 {
+    grid-area: 5/9/5/10;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.awards__item-12 {
+    grid-area: 6/5/7/6;
+    font-size: 18px;
+}
+
+.awards__item-13 {
+    grid-area: 6/7/7/8;
+    max-width: 170px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.awards__item-14 {
+    grid-area: 6/9/7/10;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.line-three {
+    grid-area: 7/1/9/10;
+    font-size: 16px;
 }

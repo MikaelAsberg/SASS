@@ -1,6 +1,60 @@
-.frame__pictures {
-    padding-top: 20px;
+.frame {
+    margin: 20px 0 20px 0;
     max-width: 1110px;
-    max-height: 1960px;
+    // max-height: 1960px;
     width: 100%;
+    border: solid red 5px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat (9, 1fr);
+    grid-template-rows: repeat (32, 1fr);
+    grid-gap: 10px;
+}
+
+.img-1 {
+    grid-area: 1/1/8/4;
+}
+
+.img-2 {
+    grid-area: 1/4/7/7;
+}
+
+.img-3 {
+    grid-area: 1/7/11/10;
+}
+
+.img-4 {
+    grid-area: 8/1/16/4;
+}
+
+.img-5 {
+    grid-area: 7/4/14/7;
+}
+
+.img-6 {
+    grid-area: 16/1/24/4;
+}
+
+.img-7 {
+    grid-area: 14/4/23/7;
+}
+
+.img-8 {
+    grid-area: 11/7/18/10;
+}
+
+.img-9 {
+    grid-area: 24/1/33/4;
+}
+
+.img-10 {
+    grid-area: 23/4/33/7;
+}
+
+.img-11 {
+    grid-area: 18/7/27/10;
+}
+
+.img-12 {
+    grid-area: 27/7/33/10;
 }
