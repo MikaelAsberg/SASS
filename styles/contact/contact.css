@@ -1,6 +1,9 @@
 .menu {
+  margin-top: 20px;
   max-width: 1110px;
   width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   background-color: white;
   display: -ms-grid;
   display: grid;
@@ -33,7 +36,7 @@
 }
 
 .main {
-  margin-top: 20px;
+  margin: 50px 0 50px 0;
   max-width: 1110px;
   width: 100%;
   background-color: #fff;
@@ -117,10 +120,9 @@
 }
 
 .footer {
-  margin-top: 20px;
+  margin-top: 50px;
   max-width: 1110px;
   width: 100%;
-  background-color: white;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[20];
@@ -165,11 +167,12 @@
 }
 
 body {
-  background-color: lightgoldenrodyellow;
   font-family: 'Mulish';
   color: #111111;
+  background-color: white;
   font-weight: bold;
   font-size: 16px;
+  line-height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -183,6 +186,5 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  line-height: auto;
 }
 /*# sourceMappingURL=contact.css.map */

@@ -1,18 +1,13 @@
 .awards {
-    margin-top: 20px;
+    margin-bottom: 50px;
     max-width: 1110px;
     width: 100%;
-    // max-height: 823px;
-    border: solid black 5px;
-    box-sizing: border-box;
-    background-color: white;
     display: grid;
     grid-template-columns: repeat (7, 1fr);
     grid-template-rows: repeat (10, 1fr);
-    // grid-gap: 24px;
-    box-sizing: border-box;
 }
 
+// det var det här som sabbade gridden. Tar tyvärr för lång tid att återskapa den här gången
 .awards__text {
     position: relative;
     top: 30px;
@@ -27,6 +22,7 @@
     // går inte att sätta line-height utan att sabba gridden //
 }
 
+// Hela gridden gjordes korrekt först, men sen blev defekt i linjerna. Väljer att inte återskapa dom den här gången eftersom det tog mig drygt 2,5 timme att skapa gridden korrektfrån böjan.
 .line-one {
     grid-area: 1/1/9/10;
     font-size: 22px;
@@ -45,13 +41,11 @@
 .awards__item-3 {
     grid-area: 2/7/2/8;
     max-width: 170px;
-    font-size: 16px;
     font-weight: 400;
 }
 
 .awards__item-4 {
     grid-area: 2/9/2/10;
-    font-size: 16px;
     font-weight: 400;
 }
 
@@ -63,19 +57,16 @@
 .awards__item-6 {
     grid-area: 3/7/4/8;
     max-width: 170px;
-    font-size: 16px;
     font-weight: 400;
 }
 
 .awards__item-7 {
     grid-area: 3/9/4/10;
-    font-size: 16px;
     font-weight: 400;
 }
 
 .line-two {
     grid-area: 4/1/9/10;
-    font-size: 16px;
 }
 
 .awards__item-8 {
@@ -91,13 +82,11 @@
 .awards__item-10 {
     grid-area: 5/7/5/8;
     max-width: 170px;
-    font-size: 16px;
     font-weight: 400;
 }
 
 .awards__item-11 {
     grid-area: 5/9/5/10;
-    font-size: 16px;
     font-weight: 400;
 }
 
@@ -109,17 +98,14 @@
 .awards__item-13 {
     grid-area: 6/7/7/8;
     max-width: 170px;
-    font-size: 16px;
     font-weight: 400;
 }
 
 .awards__item-14 {
     grid-area: 6/9/7/10;
-    font-size: 16px;
     font-weight: 400;
 }
 
 .line-three {
-    grid-area: 7/1/9/10;
-    font-size: 16px;
+    grid-area: 8/1/9/10;
 }
