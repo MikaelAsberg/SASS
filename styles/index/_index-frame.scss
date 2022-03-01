@@ -8,75 +8,54 @@
     grid-gap: 10px;
 }
 
-// Önskar att jag kunde wrappa framen. Men jag antar att det inte går med grid-area?
+.frame__images {
+    width: 100%;
+}
+
 .img-1 {
     grid-area: 1/1/8/4;
-    max-width: 357px;
-    width: 100%;
 }
 
 .img-2 {
     grid-area: 1/4/7/7;
-    max-width: 357px;
-    width: 100%;
 }
 
 .img-3 {
     grid-area: 1/7/11/10;
-    max-width: 357px;
-    width: 100%;
 }
 
 .img-4 {
     grid-area: 8/1/16/4;
-    max-width: 357px;
-    width: 100%;
 }
 
 .img-5 {
     grid-area: 7/4/14/7;
-    max-width: 357px;
-    width: 100%;
 }
 
 .img-6 {
     grid-area: 16/1/24/4;
-    max-width: 357px;
-    width: 100%;
 }
 
 .img-7 {
     grid-area: 14/4/23/7;
-    max-width: 357px;
-    width: 100%;
 }
 
 .img-8 {
     grid-area: 11/7/18/10;
-    max-width: 357px;
-    width: 100%;
 }
 
 .img-9 {
     grid-area: 24/1/33/4;
-    max-width: 357px;
-    width: 100%;
 }
 
 .img-10 {
     grid-area: 23/4/33/7;
-    max-width: 357px;
-    width: 100%;
 }
 
 .img-11 {
     grid-area: 18/7/27/10;
-    max-width: 357px;
-    width: 100%;
 }
 
 .img-12 {
     grid-area: 27/7/33/10;
-    max-width: 357px;
-    width: 100%;
 }
